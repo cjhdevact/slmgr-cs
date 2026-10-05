@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Option names and parameter placeholders -->
+  <data name="L_optInstallProductKey" xml:space="preserve"><value>ipk</value></data>
+  <data name="L_optInstallProductKeyUsage" xml:space="preserve"><value>Install product key (replaces existing key)</value></data>
+  <data name="L_optUninstallProductKey" xml:space="preserve"><value>upk</value></data>
+  <data name="L_optUninstallProductKeyUsage" xml:space="preserve"><value>Uninstall product key</value></data>
+  <data name="L_optActivateProduct" xml:space="preserve"><value>ato</value></data>
+  <data name="L_optActivateProductUsage" xml:space="preserve"><value>Activate Windows</value></data>
+  <data name="L_optDisplayInformation" xml:space="preserve"><value>dli</value></data>
+  <data name="L_optDisplayInformationUsage" xml:space="preserve"><value>Display license information (default: current license)</value></data>
+  <data name="L_optDisplayInformationVerbose" xml:space="preserve"><value>dlv</value></data>
+  <data name="L_optDisplayInformationUsageVerbose" xml:space="preserve"><value>Display detailed license information (default: current license)</value></data>
+  <data name="L_optExpirationDatime" xml:space="preserve"><value>xpr</value></data>
+  <data name="L_optExpirationDatimeUsage" xml:space="preserve"><value>Expiration date for current license state</value></data>
+  <data name="L_optClearPKeyFromRegistry" xml:space="preserve"><value>cpky</value></data>
+  <data name="L_optClearPKeyFromRegistryUsage" xml:space="preserve"><value>Clear product key from the registry (prevents disclosure attacks)</value></data>
+  <data name="L_optInstallLicense" xml:space="preserve"><value>ilc</value></data>
+  <data name="L_optInstallLicenseUsage" xml:space="preserve"><value>Install license</value></data>
+  <data name="L_optReinstallLicenses" xml:space="preserve"><value>rilc</value></data>
+  <data name="L_optReinstallLicensesUsage" xml:space="preserve"><value>Re-install system license files</value></data>
+  <data name="L_optDisplayIID" xml:space="preserve"><value>dti</value></data>
+  <data name="L_optDisplayIIDUsage" xml:space="preserve"><value>Display Installation ID for offline activation</value></data>
+  <data name="L_optPhoneActivateProduct" xml:space="preserve"><value>atp</value></data>
+  <data name="L_optPhoneActivateProductUsage" xml:space="preserve"><value>Activate product with user-provided Confirmation ID</value></data>
+  <data name="L_optReArmWindows" xml:space="preserve"><value>rearm</value></data>
+  <data name="L_optReArmWindowsUsage" xml:space="preserve"><value>Reset the licensing status of the machine</value></data>
+  <data name="L_optReArmApplication" xml:space="preserve"><value>rearm-app</value></data>
+  <data name="L_optReArmApplicationUsage" xml:space="preserve"><value>Reset the licensing status of the given app</value></data>
+  <data name="L_optReArmSku" xml:space="preserve"><value>rearm-sku</value></data>
+  <data name="L_optReArmSkuUsage" xml:space="preserve"><value>Reset the licensing status of the given sku</value></data>
+  <data name="L_optSetKmsName" xml:space="preserve"><value>skms</value></data>
+  <data name="L_optSetKmsNameUsage" xml:space="preserve"><value>Set the name and/or the port for the KMS computer this machine will use. IPv6 address must be specified in the format [hostname]:port</value></data>
+  <data name="L_optClearKmsName" xml:space="preserve"><value>ckms</value></data>
+  <data name="L_optClearKmsNameUsage" xml:space="preserve"><value>Clear name of KMS computer used (sets the port to the default)</value></data>
+  <data name="L_optSetKmsLookupDomain" xml:space="preserve"><value>skms-domain</value></data>
+  <data name="L_optSetKmsLookupDomainUsage" xml:space="preserve"><value>Set the specific DNS domain in which all KMS SRV records can be found. This setting has no effect if the specific single KMS host is set via /skms option.</value></data>
+  <data name="L_optClearKmsLookupDomain" xml:space="preserve"><value>ckms-domain</value></data>
+  <data name="L_optClearKmsLookupDomainUsage" xml:space="preserve"><value>Clear the specific DNS domain in which all KMS SRV records can be found. The specific KMS host will be used if set via /skms. Otherwise default KMS auto-discovery will be used.</value></data>
+  <data name="L_optSetKmsHostCaching" xml:space="preserve"><value>skhc</value></data>
+  <data name="L_optSetKmsHostCachingUsage" xml:space="preserve"><value>Enable KMS host caching</value></data>
+  <data name="L_optClearKmsHostCaching" xml:space="preserve"><value>ckhc</value></data>
+  <data name="L_optClearKmsHostCachingUsage" xml:space="preserve"><value>Disable KMS host caching</value></data>
+  <data name="L_optSetActivationInterval" xml:space="preserve"><value>sai</value></data>
+  <data name="L_optSetActivationIntervalUsage" xml:space="preserve"><value>Set interval (minutes) for unactivated clients to attempt KMS connection. The activation interval must be between 15 minutes (min) and 30 days (max) although the default (2 hours) is recommended.</value></data>
+  <data name="L_optSetRenewalInterval" xml:space="preserve"><value>sri</value></data>
+  <data name="L_optSetRenewalIntervalUsage" xml:space="preserve"><value>Set renewal interval (minutes) for activated clients to attempt KMS connection. The renewal interval must be between 15 minutes (min) and 30 days (max) although the default (7 days) is recommended.</value></data>
+  <data name="L_optSetKmsListenPort" xml:space="preserve"><value>sprt</value></data>
+  <data name="L_optSetKmsListenPortUsage" xml:space="preserve"><value>Set TCP port KMS will use to communicate with clients</value></data>
+  <data name="L_optSetDNS" xml:space="preserve"><value>sdns</value></data>
+  <data name="L_optSetDNSUsage" xml:space="preserve"><value>Enable DNS publishing by KMS (default)</value></data>
+  <data name="L_optClearDNS" xml:space="preserve"><value>cdns</value></data>
+  <data name="L_optClearDNSUsage" xml:space="preserve"><value>Disable DNS publishing by KMS</value></data>
+  <data name="L_optSetNormalPriority" xml:space="preserve"><value>spri</value></data>
+  <data name="L_optSetNormalPriorityUsage" xml:space="preserve"><value>Set KMS priority to normal (default)</value></data>
+  <data name="L_optClearNormalPriority" xml:space="preserve"><value>cpri</value></data>
+  <data name="L_optClearNormalPriorityUsage" xml:space="preserve"><value>Set KMS priority to low</value></data>
+  <data name="L_optSetVLActivationType" xml:space="preserve"><value>act-type</value></data>
+  <data name="L_optSetVLActivationTypeUsage" xml:space="preserve"><value>Set activation type to 1 (for AD) or 2 (for KMS) or 3 (for Token) or 0 (for all).</value></data>
+  <data name="L_optListInstalledILs" xml:space="preserve"><value>lil</value></data>
+  <data name="L_optListInstalledILsUsage" xml:space="preserve"><value>List installed Token-based Activation Issuance Licenses</value></data>
+  <data name="L_optRemoveInstalledIL" xml:space="preserve"><value>ril</value></data>
+  <data name="L_optRemoveInstalledILUsage" xml:space="preserve"><value>Remove installed Token-based Activation Issuance License</value></data>
+  <data name="L_optListTkaCerts" xml:space="preserve"><value>ltc</value></data>
+  <data name="L_optListTkaCertsUsage" xml:space="preserve"><value>List Token-based Activation Certificates</value></data>
+  <data name="L_optForceTkaActivation" xml:space="preserve"><value>fta</value></data>
+  <data name="L_optForceTkaActivationUsage" xml:space="preserve"><value>Force Token-based Activation</value></data>
+  <data name="L_optADActivate" xml:space="preserve"><value>ad-activation-online</value></data>
+  <data name="L_optADActivateUsage" xml:space="preserve"><value>Activate AD (Active Directory) forest with user-provided product key</value></data>
+  <data name="L_optADGetIID" xml:space="preserve"><value>ad-activation-get-iid</value></data>
+  <data name="L_optADGetIIDUsage" xml:space="preserve"><value>Display Installation ID for AD (Active Directory) forest</value></data>
+  <data name="L_optADApplyCID" xml:space="preserve"><value>ad-activation-apply-cid</value></data>
+  <data name="L_optADApplyCIDUsage" xml:space="preserve"><value>Activate AD (Active Directory) forest with user-provided product key and Confirmation ID</value></data>
+  <data name="L_optADListAOs" xml:space="preserve"><value>ao-list</value></data>
+  <data name="L_optADListAOsUsage" xml:space="preserve"><value>Display Activation Objects in AD (Active Directory)</value></data>
+  <data name="L_optADDeleteAO" xml:space="preserve"><value>del-ao</value></data>
+  <data name="L_optADDeleteAOsUsage" xml:space="preserve"><value>Delete Activation Objects in AD (Active Directory) for user-provided Activation Object</value></data>
+
+  <!-- Parameter placeholders -->
+  <data name="L_ParamsActivationID" xml:space="preserve"><value>&lt;Activation ID&gt;</value></data>
+  <data name="L_ParamsActivationIDOptional" xml:space="preserve"><value>[Activation ID]</value></data>
+  <data name="L_ParamsActIDOptional" xml:space="preserve"><value>[Activation ID | All]</value></data>
+  <data name="L_ParamsApplicationID" xml:space="preserve"><value>&lt;Application ID&gt;</value></data>
+  <data name="L_ParamsProductKey" xml:space="preserve"><value>&lt;Product Key&gt;</value></data>
+  <data name="L_ParamsLicenseFile" xml:space="preserve"><value>&lt;License file&gt;</value></data>
+  <data name="L_ParamsPhoneActivate" xml:space="preserve"><value>&lt;Confirmation ID&gt;</value></data>
+  <data name="L_ParamsSetKms" xml:space="preserve"><value>&lt;Name[:Port] | : port&gt;</value></data>
+  <data name="L_ParamsSetKmsLookupDomain" xml:space="preserve"><value>&lt;FQDN&gt;</value></data>
+  <data name="L_ParamsSetListenKmsPort" xml:space="preserve"><value>&lt;Port&gt;</value></data>
+  <data name="L_ParamsSetActivationInterval" xml:space="preserve"><value>&lt;Activation Interval&gt;</value></data>
+  <data name="L_ParamsSetRenewalInterval" xml:space="preserve"><value>&lt;Renewal Interval&gt;</value></data>
+  <data name="L_ParamsVLActivationTypeOptional" xml:space="preserve"><value>[Activation-Type]</value></data>
+  <data name="L_ParamsRemoveInstalledIL" xml:space="preserve"><value>&lt;ILID&gt; &lt;ILvID&gt;</value></data>
+  <data name="L_ParamsForceTkaActivation" xml:space="preserve"><value>&lt;Certificate Thumbprint&gt; [&lt;PIN&gt;]</value></data>
+  <data name="L_ParamsAONameOptional" xml:space="preserve"><value>[Activation Object name]</value></data>
+  <data name="L_ParamsAODistinguishedName" xml:space="preserve"><value>&lt;Activation Object DN | Activation Object RDN&gt;</value></data>
+
+  <!-- Miscellaneous messages -->
+  <data name="L_MsgHelp_1" xml:space="preserve"><value>Windows Software Licensing Management Tool</value></data>
+  <data name="L_MsgHelp_2" xml:space="preserve"><value>Usage: slmgr.vbs [MachineName [User Password]] [&lt;Option&gt;]</value></data>
+  <data name="L_MsgHelp_3" xml:space="preserve"><value>MachineName: Name of remote machine (default is local machine)</value></data>
+  <data name="L_MsgHelp_4" xml:space="preserve"><value>User:        Account with required privilege on remote machine</value></data>
+  <data name="L_MsgHelp_5" xml:space="preserve"><value>Password:    password for the previous account</value></data>
+  <data name="L_MsgGlobalOptions" xml:space="preserve"><value>Global Options:</value></data>
+  <data name="L_MsgAdvancedOptions" xml:space="preserve"><value>Advanced Options:</value></data>
+  <data name="L_MsgKmsClientOptions" xml:space="preserve"><value>Volume Licensing: Key Management Service (KMS) Client Options:</value></data>
+  <data name="L_MsgKmsOptions" xml:space="preserve"><value>Volume Licensing: Key Management Service (KMS) Options:</value></data>
+  <data name="L_MsgADOptions" xml:space="preserve"><value>Volume Licensing: Active Directory (AD) Activation Options:</value></data>
+  <data name="L_MsgTkaClientOptions" xml:space="preserve"><value>Volume Licensing: Token-based Activation Options:</value></data>
+  <data name="L_MsgInvalidOptions" xml:space="preserve"><value>Invalid combination of command parameters.</value></data>
+  <data name="L_MsgUnrecognizedOption" xml:space="preserve"><value>Unrecognized option: </value></data>
+  <data name="L_MsgErrorProductNotFound" xml:space="preserve"><value>Error: product not found.</value></data>
+  <data name="L_MsgClearedPKey" xml:space="preserve"><value>Product key from registry cleared successfully.</value></data>
+  <data name="L_MsgInstalledPKey" xml:space="preserve"><value>Installed product key %PKEY% successfully.</value></data>
+  <data name="L_MsgUninstalledPKey" xml:space="preserve"><value>Uninstalled product key successfully.</value></data>
+  <data name="L_MsgErrorPKey" xml:space="preserve"><value>Error: product key not found.</value></data>
+  <data name="L_MsgInstallationID" xml:space="preserve"><value>Installation ID: </value></data>
+  <data name="L_MsgPhoneNumbers" xml:space="preserve"><value>Product activation telephone numbers can be obtained by searching the phone.inf file for the appropriate phone number for your location/country. You can open the phone.inf file from a Command Prompt or the Start Menu by running: notepad %systemroot%\system32\sppui\phone.inf</value></data>
+  <data name="L_MsgActivating" xml:space="preserve"><value>Activating %PRODUCTNAME% (%PRODUCTID%) ...</value></data>
+  <data name="L_MsgActivated" xml:space="preserve"><value>Product activated successfully.</value></data>
+  <data name="L_MsgActivated_Failed" xml:space="preserve"><value>Error: Product activation failed.</value></data>
+  <data name="L_MsgConfID" xml:space="preserve"><value>Confirmation ID for product %ACTID% deposited successfully.</value></data>
+  <data name="L_MsgErrorLocalWMI" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in connecting to the local WMI provider.</value></data>
+  <data name="L_MsgErrorLocalRegistry" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in connecting to the local registry.</value></data>
+  <data name="L_MsgErrorConnection" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in connecting to server %COMPUTERNAME%.</value></data>
+  <data name="L_MsgInfoRemoteConnection" xml:space="preserve"><value>Connected to server %COMPUTERNAME%.</value></data>
+  <data name="L_MsgErrorConnectionRegistry" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in connecting to the registry on server %COMPUTERNAME%.</value></data>
+  <data name="L_MsgErrorImpersonation" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in setting impersonation level.</value></data>
+  <data name="L_MsgErrorAuthenticationLevel" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in setting authentication level.</value></data>
+  <data name="L_MsgErrorWMI" xml:space="preserve"><value>Error 0x%ERRCODE% occurred in creating a locator object.</value></data>
+  <data name="L_MsgErrorText_6" xml:space="preserve"><value>On a computer running Microsoft Windows non-core edition, run 'slui.exe 0x2a 0x%ERRCODE%' to display the error text.</value></data>
+  <data name="L_MsgErrorText_8" xml:space="preserve"><value>Error: </value></data>
+  <data name="L_MsgErrorText_9" xml:space="preserve"><value>Error: option %OPTION% needs %PARAM%</value></data>
+  <data name="L_MsgErrorText_11" xml:space="preserve"><value>The machine is running within the non-genuine grace period. Run 'slui.exe' to go online and make the machine genuine.</value></data>
+  <data name="L_MsgErrorText_12" xml:space="preserve"><value>Windows is running within the non-genuine notification period. Run 'slui.exe' to go online and validate Windows.</value></data>
+  <data name="L_MsgLicenseFile" xml:space="preserve"><value>License file %LICENSEFILE% installed successfully.</value></data>
+  <data name="L_MsgKmsPriSetToLow" xml:space="preserve"><value>KMS priority set to Low</value></data>
+  <data name="L_MsgKmsPriSetToNormal" xml:space="preserve"><value>KMS priority set to Normal</value></data>
+  <data name="L_MsgWarningKmsPri" xml:space="preserve"><value>Warning: Priority can only be set on a KMS machine that is also activated.</value></data>
+  <data name="L_MsgKmsDnsPublishingDisabled" xml:space="preserve"><value>DNS publishing disabled</value></data>
+  <data name="L_MsgKmsDnsPublishingEnabled" xml:space="preserve"><value>DNS publishing enabled</value></data>
+  <data name="L_MsgKmsDnsPublishingWarning" xml:space="preserve"><value>Warning: DNS Publishing can only be set on a KMS machine that is also activated.</value></data>
+  <data name="L_MsgKmsPortSet" xml:space="preserve"><value>KMS port set to %PORT% successfully.</value></data>
+  <data name="L_MsgWarningKmsReboot" xml:space="preserve"><value>Warning: a KMS reboot is needed for this setting to take effect.</value></data>
+  <data name="L_MsgWarningKmsPort" xml:space="preserve"><value>Warning: KMS port can only be set on a KMS machine that is also activated.</value></data>
+  <data name="L_MsgRenewalSet" xml:space="preserve"><value>Volume renewal interval set to %RENEWAL% minutes successfully.</value></data>
+  <data name="L_MsgWarningRenewal" xml:space="preserve"><value>Warning: Volume renewal interval can only be set on a KMS machine that is also activated.</value></data>
+  <data name="L_MsgActivationSet" xml:space="preserve"><value>Volume activation interval set to %ACTIVATION% minutes successfully.</value></data>
+  <data name="L_MsgWarningActivation" xml:space="preserve"><value>Warning: Volume activation interval can only be set on a KMS machine that is also activated.</value></data>
+  <data name="L_MsgKmsNameSet" xml:space="preserve"><value>Key Management Service machine name set to %KMS% successfully.</value></data>
+  <data name="L_MsgKmsNameCleared" xml:space="preserve"><value>Key Management Service machine name cleared successfully.</value></data>
+  <data name="L_MsgKmsLookupDomainSet" xml:space="preserve"><value>Key Management Service lookup domain set to %FQDN% successfully.</value></data>
+  <data name="L_MsgKmsLookupDomainCleared" xml:space="preserve"><value>Key Management Service lookup domain cleared successfully.</value></data>
+  <data name="L_MsgKmsUseMachineNameOverrides" xml:space="preserve"><value>Warning: /skms setting overrides the /skms-domain setting. %KMS% will be used for activation.</value></data>
+  <data name="L_MsgKmsUseMachineName" xml:space="preserve"><value>Warning: /skms setting is in effect. %KMS% will be used for activation.</value></data>
+  <data name="L_MsgKmsUseLookupDomain" xml:space="preserve"><value>Warning: /skms-domain setting is in effect. %FQDN% will be used for DNS SRV record lookup.</value></data>
+  <data name="L_MsgKmsHostCachingDisabled" xml:space="preserve"><value>KMS host caching is disabled</value></data>
+  <data name="L_MsgKmsHostCachingEnabled" xml:space="preserve"><value>KMS host caching is enabled</value></data>
+  <data name="L_MsgErrorActivationID" xml:space="preserve"><value>Error: Activation ID (%ActID%) not found.</value></data>
+  <data name="L_MsgVLActivationTypeSet" xml:space="preserve"><value>Volume activation type set successfully.</value></data>
+  <data name="L_MsgRearm_1" xml:space="preserve"><value>Command completed successfully.</value></data>
+  <data name="L_MsgRearm_2" xml:space="preserve"><value>Please restart the system for the changes to take effect.</value></data>
+  <data name="L_MsgRemainingWindowsRearmCount" xml:space="preserve"><value>Remaining Windows rearm count: %COUNT%</value></data>
+  <data name="L_MsgRemainingSkuRearmCount" xml:space="preserve"><value>Remaining SKU rearm count: %COUNT%</value></data>
+  <data name="L_MsgRemainingAppRearmCount" xml:space="preserve"><value>Remaining App rearm count: %COUNT%</value></data>
+
+  <!-- Used for /xpr -->
+  <data name="L_MsgLicenseStatusUnlicensed" xml:space="preserve"><value>Unlicensed</value></data>
+  <data name="L_MsgLicenseStatusVL" xml:space="preserve"><value>Volume activation will expire %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusTBL" xml:space="preserve"><value>Timebased activation will expire %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusAVMA" xml:space="preserve"><value>Automatic VM activation will expire %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusLicensed" xml:space="preserve"><value>The machine is permanently activated.</value></data>
+  <data name="L_MsgLicenseStatusInitialGrace" xml:space="preserve"><value>Initial grace period ends %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusAdditionalGrace" xml:space="preserve"><value>Additional grace period ends %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusNonGenuineGrace" xml:space="preserve"><value>Non-genuine grace period ends %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusNotification" xml:space="preserve"><value>Windows is in Notification mode</value></data>
+  <data name="L_MsgLicenseStatusExtendedGrace" xml:space="preserve"><value>Extended grace period ends %ENDDATE%</value></data>
+
+  <!-- Used for /dli and /dlv -->
+  <data name="L_MsgLicenseStatusUnlicensed_1" xml:space="preserve"><value>License Status: Unlicensed</value></data>
+  <data name="L_MsgLicenseStatusLicensed_1" xml:space="preserve"><value>License Status: Licensed</value></data>
+  <data name="L_MsgLicenseStatusVL_1" xml:space="preserve"><value>Volume activation expiration: %MINUTE% minute(s) (%DAY% day(s))</value></data>
+  <data name="L_MsgLicenseStatusTBL_1" xml:space="preserve"><value>Timebased activation expiration: %MINUTE% minute(s) (%DAY% day(s))</value></data>
+  <data name="L_MsgLicenseStatusAVMA_1" xml:space="preserve"><value>Automatic VM activation expiration: %MINUTE% minute(s) (%DAY% day(s))</value></data>
+  <data name="L_MsgLicenseStatusInitialGrace_1" xml:space="preserve"><value>License Status: Initial grace period</value></data>
+  <data name="L_MsgLicenseStatusAdditionalGrace_1" xml:space="preserve"><value>License Status: Additional grace period (KMS license expired or hardware out of tolerance)</value></data>
+  <data name="L_MsgLicenseStatusNonGenuineGrace_1" xml:space="preserve"><value>License Status: Non-genuine grace period.</value></data>
+  <data name="L_MsgLicenseStatusNotification_1" xml:space="preserve"><value>License Status: Notification</value></data>
+  <data name="L_MsgLicenseStatusExtendedGrace_1" xml:space="preserve"><value>License Status: Extended grace period</value></data>
+  <data name="L_MsgNotificationErrorReasonNonGenuine" xml:space="preserve"><value>Notification Reason: 0x%ERRCODE% (non-genuine).</value></data>
+  <data name="L_MsgNotificationErrorReasonExpiration" xml:space="preserve"><value>Notification Reason: 0x%ERRCODE% (grace time expired).</value></data>
+  <data name="L_MsgNotificationErrorReasonOther" xml:space="preserve"><value>Notification Reason: 0x%ERRCODE%.</value></data>
+  <data name="L_MsgLicenseStatusTimeRemaining" xml:space="preserve"><value>Time remaining: %MINUTE% minute(s) (%DAY% day(s))</value></data>
+  <data name="L_MsgLicenseStatusUnknown" xml:space="preserve"><value>License Status: Unknown</value></data>
+  <data name="L_MsgLicenseStatusEvalEndData" xml:space="preserve"><value>Evaluation End Date: </value></data>
+  <data name="L_MsgReinstallingLicenses" xml:space="preserve"><value>Re-installing license files ...</value></data>
+  <data name="L_MsgLicensesReinstalled" xml:space="preserve"><value>License files re-installed successfully.</value></data>
+  <data name="L_MsgServiceVersion" xml:space="preserve"><value>Software licensing service version: </value></data>
+  <data name="L_MsgProductName" xml:space="preserve"><value>Name: </value></data>
+  <data name="L_MsgProductDesc" xml:space="preserve"><value>Description: </value></data>
+  <data name="L_MsgActID" xml:space="preserve"><value>Activation ID: </value></data>
+  <data name="L_MsgAppID" xml:space="preserve"><value>Application ID: </value></data>
+  <data name="L_MsgPID4" xml:space="preserve"><value>Extended PID: </value></data>
+  <data name="L_MsgChannel" xml:space="preserve"><value>Product Key Channel: </value></data>
+  <data name="L_MsgProcessorCertUrl" xml:space="preserve"><value>Processor Certificate URL: </value></data>
+  <data name="L_MsgMachineCertUrl" xml:space="preserve"><value>Machine Certificate URL: </value></data>
+  <data name="L_MsgUseLicenseCertUrl" xml:space="preserve"><value>Use License URL: </value></data>
+  <data name="L_MsgPKeyCertUrl" xml:space="preserve"><value>Product Key Certificate URL: </value></data>
+  <data name="L_MsgValidationUrl" xml:space="preserve"><value>Validation URL: </value></data>
+  <data name="L_MsgPartialPKey" xml:space="preserve"><value>Partial Product Key: </value></data>
+  <data name="L_MsgErrorLicenseNotInUse" xml:space="preserve"><value>This license is not in use.</value></data>
+  <data name="L_MsgKmsInfo" xml:space="preserve"><value>Key Management Service client information</value></data>
+  <data name="L_MsgCmid" xml:space="preserve"><value>Client Machine ID (CMID): </value></data>
+  <data name="L_MsgRegisteredKmsName" xml:space="preserve"><value>Registered KMS machine name: </value></data>
+  <data name="L_MsgKmsLookupDomain" xml:space="preserve"><value>Registered KMS SRV record lookup domain: </value></data>
+  <data name="L_MsgKmsFromDnsUnavailable" xml:space="preserve"><value>DNS auto-discovery: KMS name not available</value></data>
+  <data name="L_MsgKmsFromDns" xml:space="preserve"><value>KMS machine name from DNS: </value></data>
+  <data name="L_MsgKmsIpAddress" xml:space="preserve"><value>KMS machine IP address: </value></data>
+  <data name="L_MsgKmsIpAddressUnavailable" xml:space="preserve"><value>KMS machine IP address: not available</value></data>
+  <data name="L_MsgKmsPID4" xml:space="preserve"><value>KMS machine extended PID: </value></data>
+  <data name="L_MsgActivationInterval" xml:space="preserve"><value>Activation interval: %INTERVAL% minutes</value></data>
+  <data name="L_MsgRenewalInterval" xml:space="preserve"><value>Renewal interval: %INTERVAL% minutes</value></data>
+  <data name="L_MsgKmsEnabled" xml:space="preserve"><value>Key Management Service is enabled on this machine</value></data>
+  <data name="L_MsgKmsCurrentCount" xml:space="preserve"><value>Current count: </value></data>
+  <data name="L_MsgKmsListeningOnPort" xml:space="preserve"><value>Listening on Port: </value></data>
+  <data name="L_MsgKmsPriNormal" xml:space="preserve"><value>KMS priority: Normal</value></data>
+  <data name="L_MsgKmsPriLow" xml:space="preserve"><value>KMS priority: Low</value></data>
+  <data name="L_MsgVLActivationTypeAll" xml:space="preserve"><value>Configured Activation Type: All</value></data>
+  <data name="L_MsgVLActivationTypeAD" xml:space="preserve"><value>Configured Activation Type: AD</value></data>
+  <data name="L_MsgVLActivationTypeKMS" xml:space="preserve"><value>Configured Activation Type: KMS</value></data>
+  <data name="L_MsgVLActivationTypeToken" xml:space="preserve"><value>Configured Activation Type: Token</value></data>
+  <data name="L_MsgVLMostRecentActivationInfo" xml:space="preserve"><value>Most recent activation information:</value></data>
+  <data name="L_MsgInvalidDataError" xml:space="preserve"><value>Error: The data is invalid</value></data>
+  <data name="L_MsgUndeterminedPrimaryKey" xml:space="preserve"><value>Warning: SLMGR was not able to validate the current product key for Windows. Please upgrade to the latest service pack.</value></data>
+  <data name="L_MsgUndeterminedPrimaryKeyOperation" xml:space="preserve"><value>Warning: This operation may affect more than one target license.  Please verify the results.</value></data>
+  <data name="L_MsgUndeterminedOperationFormat" xml:space="preserve"><value>Processing the license for %PRODUCTDESCRIPTION% (%PRODUCTID%).</value></data>
+  <data name="L_MsgPleaseActivateRefreshKMSInfo" xml:space="preserve"><value>Please use slmgr.vbs /ato to activate and update KMS client information in order to update values.</value></data>
+  <data name="L_MsgTokenBasedActivationMustBeDone" xml:space="preserve"><value>This system is configured for Token-based activation only. Use slmgr.vbs /fta to initiate Token-based activation, or slmgr.vbs /act-type to change the activation type setting.</value></data>
+  <data name="L_MsgSubscriptionEdition" xml:space="preserve"><value>Subscription edition: </value></data>
+  <data name="L_MsgSubscriptionType" xml:space="preserve"><value>Subscription type: </value></data>
+  <data name="L_MsgSubscriptionTypeABS" xml:space="preserve"><value>Azure based subscription</value></data>
+  <data name="L_MsgSubscriptionTypeDBS" xml:space="preserve"><value>Device based subscription</value></data>
+  <data name="L_MsgSubscriptionTypeUBS" xml:space="preserve"><value>User based subscription</value></data>
+  <data name="L_MsgSubscriptionTypeUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="L_MsgSubscriptionStatus" xml:space="preserve"><value>Subscription status: </value></data>
+  <data name="L_MsgSubscriptionStatusActive" xml:space="preserve"><value>Active</value></data>
+  <data name="L_MsgSubscriptionStatusNotActive" xml:space="preserve"><value>Not active</value></data>
+  <data name="L_MsgSubscriptionStatusDisabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="L_MsgSubscriptionExpiry" xml:space="preserve"><value>Subscription expiry: </value></data>
+  <data name="L_MsgSubscriptionStatusExpired" xml:space="preserve"><value>Expired</value></data>
+  <data name="L_MsgSubscriptionExpiryUnknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="L_MsgKmsCumulativeRequestsFromClients" xml:space="preserve"><value>Key Management Service cumulative requests received from clients</value></data>
+  <data name="L_MsgKmsTotalRequestsRecieved" xml:space="preserve"><value>Total requests received: </value></data>
+  <data name="L_MsgKmsFailedRequestsReceived" xml:space="preserve"><value>Failed requests received: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusUnlicensed" xml:space="preserve"><value>Requests with License Status Unlicensed: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusLicensed" xml:space="preserve"><value>Requests with License Status Licensed: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusInitialGrace" xml:space="preserve"><value>Requests with License Status Initial grace period: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusLicenseExpiredOrHwidOot" xml:space="preserve"><value>Requests with License Status License expired or Hardware out of tolerance: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusNonGenuineGrace" xml:space="preserve"><value>Requests with License Status Non-genuine grace period: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusNotification" xml:space="preserve"><value>Requests with License Status Notification: </value></data>
+  <data name="L_MsgRemoteWmiVersionMismatch" xml:space="preserve"><value>The remote machine does not support this version of SLMgr.vbs</value></data>
+  <data name="L_MsgRemoteExecNotSupported" xml:space="preserve"><value>This command of SLMgr.vbs is not supported for remote execution</value></data>
+
+  <!-- TKA -->
+  <data name="L_MsgTkaLicenses" xml:space="preserve"><value>Token-based Activation Issuance Licenses:</value></data>
+  <data name="L_MsgTkaLicenseHeader" xml:space="preserve"><value>%ILID%    %ILVID%</value></data>
+  <data name="L_MsgTkaLicenseILID" xml:space="preserve"><value>License ID (ILID): %ILID%</value></data>
+  <data name="L_MsgTkaLicenseILVID" xml:space="preserve"><value>Version ID (ILvID): %ILVID%</value></data>
+  <data name="L_MsgTkaLicenseExpiration" xml:space="preserve"><value>Valid to: %TODATE%</value></data>
+  <data name="L_MsgTkaLicenseAdditionalInfo" xml:space="preserve"><value>Additional Information: %MOREINFO%</value></data>
+  <data name="L_MsgTkaLicenseAuthZStatus" xml:space="preserve"><value>Error: 0x%ERRCODE%</value></data>
+  <data name="L_MsgTkaLicenseDescr" xml:space="preserve"><value>Description: %DESC%</value></data>
+  <data name="L_MsgTkaLicenseNone" xml:space="preserve"><value>No licenses found.</value></data>
+  <data name="L_MsgTkaRemoving" xml:space="preserve"><value>Removing Token-based Activation License ...</value></data>
+  <data name="L_MsgTkaRemovedItem" xml:space="preserve"><value>Removed license with SLID=%SLID%.</value></data>
+  <data name="L_MsgTkaRemovedNone" xml:space="preserve"><value>No licenses found.</value></data>
+  <data name="L_MsgTkaInfoAdditionalInfo" xml:space="preserve"><value>Additional Information: %MOREINFO%</value></data>
+  <data name="L_MsgTkaInfo" xml:space="preserve"><value>Token-based Activation information</value></data>
+  <data name="L_MsgTkaInfoILID" xml:space="preserve"><value>License ID (ILID): %ILID%</value></data>
+  <data name="L_MsgTkaInfoILVID" xml:space="preserve"><value>Version ID (ILvID): %ILVID%</value></data>
+  <data name="L_MsgTkaInfoGrantNo" xml:space="preserve"><value>Grant Number: %GRANTNO%</value></data>
+  <data name="L_MsgTkaInfoThumbprint" xml:space="preserve"><value>Certificate Thumbprint: %THUMBPRINT%</value></data>
+  <data name="L_MsgTkaCertThumbprint" xml:space="preserve"><value>Thumbprint: %THUMBPRINT%</value></data>
+  <data name="L_MsgTkaCertSubject" xml:space="preserve"><value>Subject: %SUBJECT%</value></data>
+  <data name="L_MsgTkaCertIssuer" xml:space="preserve"><value>Issuer: %ISSUER%</value></data>
+  <data name="L_MsgTkaCertValidFrom" xml:space="preserve"><value>Valid from: %FROMDATE%</value></data>
+  <data name="L_MsgTkaCertValidTo" xml:space="preserve"><value>Valid to: %TODATE%</value></data>
+
+  <!-- AD Activation -->
+  <data name="L_MsgADInfo" xml:space="preserve"><value>AD Activation client information</value></data>
+  <data name="L_MsgADInfoAOName" xml:space="preserve"><value>Activation Object name: </value></data>
+  <data name="L_MsgADInfoAODN" xml:space="preserve"><value>AO DN: </value></data>
+  <data name="L_MsgADInfoExtendedPid" xml:space="preserve"><value>AO extended PID: </value></data>
+  <data name="L_MsgADInfoActID" xml:space="preserve"><value>AO activation ID: </value></data>
+  <data name="L_MsgActObjAvailable" xml:space="preserve"><value>Activation Objects</value></data>
+  <data name="L_MsgActObjNoneFound" xml:space="preserve"><value>No objects found</value></data>
+  <data name="L_MsgSucess" xml:space="preserve"><value>Operation completed successfully.</value></data>
+  <data name="L_MsgADSchemaNotSupported" xml:space="preserve"><value>Active Directory-Based Activation is not supported in the current Active Directory schema.</value></data>
+
+  <!-- AVMA -->
+  <data name="L_MsgAVMAInfo" xml:space="preserve"><value>Automatic VM Activation client information</value></data>
+  <data name="L_MsgAVMAID" xml:space="preserve"><value>Guest IAID: </value></data>
+  <data name="L_MsgAVMAHostMachineName" xml:space="preserve"><value>Host machine name: </value></data>
+  <data name="L_MsgAVMALastActTime" xml:space="preserve"><value>Activation time: </value></data>
+  <data name="L_MsgAVMAHostPid2" xml:space="preserve"><value>Host Digital PID2: </value></data>
+  <data name="L_MsgNotAvailable" xml:space="preserve"><value>Not Available</value></data>
+  <data name="L_MsgCurrentTrustedTime" xml:space="preserve"><value>Trusted time: </value></data>
+
+  <!-- Error codes -->
+  <data name="L_MsgError_C004C001" xml:space="preserve"><value>The activation server determined the specified product key is invalid</value></data>
+  <data name="L_MsgError_C004C003" xml:space="preserve"><value>The activation server determined the specified product key is blocked</value></data>
+  <data name="L_MsgError_C004C017" xml:space="preserve"><value>The activation server determined the specified product key has been blocked for this geographic location.</value></data>
+  <data name="L_MsgError_C004B100" xml:space="preserve"><value>The activation server determined that the computer could not be activated</value></data>
+  <data name="L_MsgError_C004C008" xml:space="preserve"><value>The activation server determined that the specified product key could not be used</value></data>
+  <data name="L_MsgError_C004C020" xml:space="preserve"><value>The activation server reported that the Multiple Activation Key has exceeded its limit</value></data>
+  <data name="L_MsgError_C004C021" xml:space="preserve"><value>The activation server reported that the Multiple Activation Key extension limit has been exceeded</value></data>
+  <data name="L_MsgError_C004D307" xml:space="preserve"><value>The maximum allowed number of re-arms has been exceeded. You must re-install the OS before trying to re-arm again</value></data>
+  <data name="L_MsgError_C004F009" xml:space="preserve"><value>The software Licensing Service reported that the grace period expired</value></data>
+  <data name="L_MsgError_C004F00F" xml:space="preserve"><value>The Software Licensing Server reported that the hardware ID binding is beyond level of tolerance</value></data>
+  <data name="L_MsgError_C004F014" xml:space="preserve"><value>The Software Licensing Service reported that the product key is not available</value></data>
+  <data name="L_MsgError_C004F025" xml:space="preserve"><value>Access denied: the requested action requires elevated privileges</value></data>
+  <data name="L_MsgError_C004F02C" xml:space="preserve"><value>The software Licensing Service reported that the format for the offline activation data is incorrect</value></data>
+  <data name="L_MsgError_C004F035" xml:space="preserve"><value>The software Licensing Service reported that the computer could not be activated with a Volume license product key. Volume licensed systems require upgrading from a qualified operating system. Please contact your system administrator or use a different type of key</value></data>
+  <data name="L_MsgError_C004F038" xml:space="preserve"><value>The software Licensing Service reported that the computer could not be activated. The count reported by your Key Management Service (KMS) is insufficient. Please contact your system administrator</value></data>
+  <data name="L_MsgError_C004F039" xml:space="preserve"><value>The software Licensing Service reported that the computer could not be activated. The Key Management Service (KMS) is not enabled</value></data>
+  <data name="L_MsgError_C004F041" xml:space="preserve"><value>The software Licensing Service determined that the Key Management Server (KMS) is not activated. KMS needs to be activated</value></data>
+  <data name="L_MsgError_C004F042" xml:space="preserve"><value>The software Licensing Service determined that the specified Key Management Service (KMS) cannot be used</value></data>
+  <data name="L_MsgError_C004F050" xml:space="preserve"><value>The Software Licensing Service reported that the product key is invalid</value></data>
+  <data name="L_MsgError_C004F051" xml:space="preserve"><value>The software Licensing Service reported that the product key is blocked</value></data>
+  <data name="L_MsgError_C004F064" xml:space="preserve"><value>The software Licensing Service reported that the non-Genuine grace period expired</value></data>
+  <data name="L_MsgError_C004F065" xml:space="preserve"><value>The software Licensing Service reported that the application is running within the valid non-genuine period</value></data>
+  <data name="L_MsgError_C004F066" xml:space="preserve"><value>The Software Licensing Service reported that the product SKU is not found</value></data>
+  <data name="L_MsgError_C004F06B" xml:space="preserve"><value>The software Licensing Service determined that it is running in a virtual machine. The Key Management Service (KMS) is not supported in this mode</value></data>
+  <data name="L_MsgError_C004F074" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. No Key Management Service (KMS) could be contacted. Please see the Application Event Log for additional information.</value></data>
+  <data name="L_MsgError_C004F075" xml:space="preserve"><value>The Software Licensing Service reported that the operation cannot be completed because the service is stopping</value></data>
+  <data name="L_MsgError_C004F304" xml:space="preserve"><value>The Software Licensing Service reported that required license could not be found.</value></data>
+  <data name="L_MsgError_C004F305" xml:space="preserve"><value>The Software Licensing Service reported that there are no certificates found in the system that could activate the product.</value></data>
+  <data name="L_MsgError_C004F30A" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. The certificate does not match the conditions in the license.</value></data>
+  <data name="L_MsgError_C004F30D" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. The thumbprint is invalid.</value></data>
+  <data name="L_MsgError_C004F30E" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. A certificate for the thumbprint could not be found.</value></data>
+  <data name="L_MsgError_C004F30F" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. The certificate does not match the criteria specified in the issuance license.</value></data>
+  <data name="L_MsgError_C004F310" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. The certificate does not match the trust point identifier (TPID) specified in the issuance license.</value></data>
+  <data name="L_MsgError_C004F311" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. A soft token cannot be used for activation.</value></data>
+  <data name="L_MsgError_C004F312" xml:space="preserve"><value>The Software Licensing Service reported that the computer could not be activated. The certificate cannot be used because its private key is exportable.</value></data>
+  <data name="L_MsgError_5" xml:space="preserve"><value>Access denied: the requested action requires elevated privileges</value></data>
+  <data name="L_MsgError_80070005" xml:space="preserve"><value>Access denied: the requested action requires elevated privileges</value></data>
+  <data name="L_MsgError_80070057" xml:space="preserve"><value>The parameter is incorrect</value></data>
+  <data name="L_MsgError_8007232A" xml:space="preserve"><value>DNS server failure</value></data>
+  <data name="L_MsgError_8007232B" xml:space="preserve"><value>DNS name does not exist</value></data>
+  <data name="L_MsgError_800706BA" xml:space="preserve"><value>The RPC server is unavailable</value></data>
+  <data name="L_MsgError_8007251D" xml:space="preserve"><value>No records found for DNS query</value></data>
+</root>

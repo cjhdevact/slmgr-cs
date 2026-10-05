@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slmgr", "slmgr\slmgr.csproj", "{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug-Console|Any CPU = Debug-Console|Any CPU
+		Debug-Library|Any CPU = Debug-Library|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-Console|Any CPU = Release-Console|Any CPU
+		Release-Library|Any CPU = Release-Library|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug-Console|Any CPU.ActiveCfg = Debug-Console|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug-Console|Any CPU.Build.0 = Debug-Console|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug-Library|Any CPU.ActiveCfg = Debug-Library|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Debug-Library|Any CPU.Build.0 = Debug-Library|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release-Console|Any CPU.ActiveCfg = Release-Console|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release-Console|Any CPU.Build.0 = Release-Console|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release-Library|Any CPU.ActiveCfg = Release-Library|Any CPU
+		{C337E61D-987D-4CEC-B82C-6571DFEA4EFE}.Release-Library|Any CPU.Build.0 = Release-Library|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+/.vs/
+
+/*.suo
+
+/slmgr/bin/
+
+/slmgr/obj/

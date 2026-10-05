@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <!-- Option names and parameter placeholders -->
+  <data name="L_optInstallProductKey" xml:space="preserve"><value>ipk</value></data>
+  <data name="L_optInstallProductKeyUsage" xml:space="preserve"><value>安装产品密钥(替换现有密钥)</value></data>
+  <data name="L_optUninstallProductKey" xml:space="preserve"><value>upk</value></data>
+  <data name="L_optUninstallProductKeyUsage" xml:space="preserve"><value>卸载产品密钥</value></data>
+  <data name="L_optActivateProduct" xml:space="preserve"><value>ato</value></data>
+  <data name="L_optActivateProductUsage" xml:space="preserve"><value>激活 Windows </value></data>
+  <data name="L_optDisplayInformation" xml:space="preserve"><value>dli</value></data>
+  <data name="L_optDisplayInformationUsage" xml:space="preserve"><value>显示许可证信息(默认: 当前许可证)</value></data>
+  <data name="L_optDisplayInformationVerbose" xml:space="preserve"><value>dlv</value></data>
+  <data name="L_optDisplayInformationUsageVerbose" xml:space="preserve"><value>显示详细的许可证信息(默认: 当前许可证)</value></data>
+  <data name="L_optExpirationDatime" xml:space="preserve"><value>xpr</value></data>
+  <data name="L_optExpirationDatimeUsage" xml:space="preserve"><value>当前许可证状态的截止日期</value></data>
+  <data name="L_optClearPKeyFromRegistry" xml:space="preserve"><value>cpky</value></data>
+  <data name="L_optClearPKeyFromRegistryUsage" xml:space="preserve"><value>从注册表中清除产品密钥(防止泄露引起的攻击)</value></data>
+  <data name="L_optInstallLicense" xml:space="preserve"><value>ilc</value></data>
+  <data name="L_optInstallLicenseUsage" xml:space="preserve"><value>安装许可证</value></data>
+  <data name="L_optReinstallLicenses" xml:space="preserve"><value>rilc</value></data>
+  <data name="L_optReinstallLicensesUsage" xml:space="preserve"><value>重新安装系统许可证文件</value></data>
+  <data name="L_optDisplayIID" xml:space="preserve"><value>dti</value></data>
+  <data name="L_optDisplayIIDUsage" xml:space="preserve"><value>显示安装 ID 以进行脱机激活</value></data>
+  <data name="L_optPhoneActivateProduct" xml:space="preserve"><value>atp</value></data>
+  <data name="L_optPhoneActivateProductUsage" xml:space="preserve"><value>使用用户提供的确认 ID 激活产品</value></data>
+  <data name="L_optReArmWindows" xml:space="preserve"><value>rearm</value></data>
+  <data name="L_optReArmWindowsUsage" xml:space="preserve"><value>重置计算机的授权状态</value></data>
+  <data name="L_optReArmApplication" xml:space="preserve"><value>rearm-app</value></data>
+  <data name="L_optReArmApplicationUsage" xml:space="preserve"><value>重置给定应用的授权状态</value></data>
+  <data name="L_optReArmSku" xml:space="preserve"><value>rearm-sku</value></data>
+  <data name="L_optReArmSkuUsage" xml:space="preserve"><value>重置给定 SKU 的授权状态</value></data>
+  <data name="L_optSetKmsName" xml:space="preserve"><value>skms</value></data>
+  <data name="L_optSetKmsNameUsage" xml:space="preserve"><value>设置 KMS 计算机名称和/或端口。IPv6 地址必须以“[计算机名]:端口”的格式指定</value></data>
+  <data name="L_optClearKmsName" xml:space="preserve"><value>ckms</value></data>
+  <data name="L_optClearKmsNameUsage" xml:space="preserve"><value>清除所使用的 KMS 计算机名称(将其端口设置为默认值)</value></data>
+  <data name="L_optSetKmsLookupDomain" xml:space="preserve"><value>skms-domain</value></data>
+  <data name="L_optSetKmsLookupDomainUsage" xml:space="preserve"><value>设置可在其中找到所有 KMS SRV 记录的特定 DNS 域。如果特定的单 KMS 主机通过 /skms 选项进行设置，则此设置无效。</value></data>
+  <data name="L_optClearKmsLookupDomain" xml:space="preserve"><value>ckms-domain</value></data>
+  <data name="L_optClearKmsLookupDomainUsage" xml:space="preserve"><value>清除可在其中找到所有 KMS SRV 记录的特定 DNS 域。如果特定的 KMS 主机通过 /skms 进行设置，则将使用该 KMS 主机。否则，将使用默认的 KMS 自动发现。</value></data>
+  <data name="L_optSetKmsHostCaching" xml:space="preserve"><value>skhc</value></data>
+  <data name="L_optSetKmsHostCachingUsage" xml:space="preserve"><value>启用 KMS 主机缓存</value></data>
+  <data name="L_optClearKmsHostCaching" xml:space="preserve"><value>ckhc</value></data>
+  <data name="L_optClearKmsHostCachingUsage" xml:space="preserve"><value>禁用 KMS 主机缓存</value></data>
+  <data name="L_optSetActivationInterval" xml:space="preserve"><value>sai</value></data>
+  <data name="L_optSetActivationIntervalUsage" xml:space="preserve"><value>设置未激活的客户端尝试连接 KMS 的时间间隔(分钟)。虽然建议了默认时间(2 小时)，但是激活间隔必须介于 15 分钟(最小值)到 30 天(最大值)之间。</value></data>
+  <data name="L_optSetRenewalInterval" xml:space="preserve"><value>sri</value></data>
+  <data name="L_optSetRenewalIntervalUsage" xml:space="preserve"><value>设置激活的客户端尝试连接 KMS 的续订时间间隔(分钟)。虽然建议了默认时间(7 天)，但是续订时间间隔必须介于 15 分钟(最小值)和 30 天(最大值)之间。</value></data>
+  <data name="L_optSetKmsListenPort" xml:space="preserve"><value>sprt</value></data>
+  <data name="L_optSetKmsListenPortUsage" xml:space="preserve"><value>设置 KMS 用于与客户端进行通信的 TCP 端口</value></data>
+  <data name="L_optSetDNS" xml:space="preserve"><value>sdns</value></data>
+  <data name="L_optSetDNSUsage" xml:space="preserve"><value>启用通过 KMS 进行的 DNS 发布(默认)</value></data>
+  <data name="L_optClearDNS" xml:space="preserve"><value>cdns</value></data>
+  <data name="L_optClearDNSUsage" xml:space="preserve"><value>禁用通过 KMS 进行的 DNS 发布</value></data>
+  <data name="L_optSetNormalPriority" xml:space="preserve"><value>spri</value></data>
+  <data name="L_optSetNormalPriorityUsage" xml:space="preserve"><value>将 KMS 优先级设置为普通(默认)</value></data>
+  <data name="L_optClearNormalPriority" xml:space="preserve"><value>cpri</value></data>
+  <data name="L_optClearNormalPriorityUsage" xml:space="preserve"><value>将 KMS 优先级设置为低</value></data>
+  <data name="L_optSetVLActivationType" xml:space="preserve"><value>act-type</value></data>
+  <data name="L_optSetVLActivationTypeUsage" xml:space="preserve"><value>将激活类型设置为 1 (针对 AD)或 2 (针对 KMS)或 3 (针对 Token)或 0 (针对全部)。</value></data>
+  <data name="L_optListInstalledILs" xml:space="preserve"><value>lil</value></data>
+  <data name="L_optListInstalledILsUsage" xml:space="preserve"><value>列出安装的基于令牌的激活颁发许可证</value></data>
+  <data name="L_optRemoveInstalledIL" xml:space="preserve"><value>ril</value></data>
+  <data name="L_optRemoveInstalledILUsage" xml:space="preserve"><value>删除安装的基于令牌的激活颁发许可证</value></data>
+  <data name="L_optListTkaCerts" xml:space="preserve"><value>ltc</value></data>
+  <data name="L_optListTkaCertsUsage" xml:space="preserve"><value>列出基于令牌的激活证书</value></data>
+  <data name="L_optForceTkaActivation" xml:space="preserve"><value>fta</value></data>
+  <data name="L_optForceTkaActivationUsage" xml:space="preserve"><value>强制进行基于令牌的激活</value></data>
+  <data name="L_optADActivate" xml:space="preserve"><value>ad-activation-online</value></data>
+  <data name="L_optADActivateUsage" xml:space="preserve"><value>通过用户提供的产品密钥激活 AD (Active Directory)林。</value></data>
+  <data name="L_optADGetIID" xml:space="preserve"><value>ad-activation-get-iid</value></data>
+  <data name="L_optADGetIIDUsage" xml:space="preserve"><value>显示 AD (Active Directory)林的安装 ID</value></data>
+  <data name="L_optADApplyCID" xml:space="preserve"><value>ad-activation-apply-cid</value></data>
+  <data name="L_optADApplyCIDUsage" xml:space="preserve"><value>通过用户提供的产品密钥和确认 ID 激活 AD (Active Directory)林</value></data>
+  <data name="L_optADListAOs" xml:space="preserve"><value>ao-list</value></data>
+  <data name="L_optADListAOsUsage" xml:space="preserve"><value>显示 AD (Active Directory)中的激活对象</value></data>
+  <data name="L_optADDeleteAO" xml:space="preserve"><value>del-ao</value></data>
+  <data name="L_optADDeleteAOsUsage" xml:space="preserve"><value>针对用户提供的激活对象，删除 AD (Active Directory)中的激活对象</value></data>
+
+  <!-- Parameter placeholders -->
+  <data name="L_ParamsActivationID" xml:space="preserve"><value>&lt;Activation ID&gt;</value></data>
+  <data name="L_ParamsActivationIDOptional" xml:space="preserve"><value>[Activation ID]</value></data>
+  <data name="L_ParamsActIDOptional" xml:space="preserve"><value>[Activation ID | All]</value></data>
+  <data name="L_ParamsApplicationID" xml:space="preserve"><value>&lt;应用程序 ID&gt;</value></data>
+  <data name="L_ParamsProductKey" xml:space="preserve"><value>&lt;Product Key&gt;</value></data>
+  <data name="L_ParamsLicenseFile" xml:space="preserve"><value>&lt;License file&gt;</value></data>
+  <data name="L_ParamsPhoneActivate" xml:space="preserve"><value>&lt;Confirmation ID&gt;</value></data>
+  <data name="L_ParamsSetKms" xml:space="preserve"><value>&lt;Name[:Port] | : port&gt;</value></data>
+  <data name="L_ParamsSetKmsLookupDomain" xml:space="preserve"><value>&lt;FQDN&gt;</value></data>
+  <data name="L_ParamsSetListenKmsPort" xml:space="preserve"><value>&lt;Port&gt;</value></data>
+  <data name="L_ParamsSetActivationInterval" xml:space="preserve"><value>&lt;Activation Interval&gt;</value></data>
+  <data name="L_ParamsSetRenewalInterval" xml:space="preserve"><value>&lt;Renewal Interval&gt;</value></data>
+  <data name="L_ParamsVLActivationTypeOptional" xml:space="preserve"><value>[激活类型]</value></data>
+  <data name="L_ParamsRemoveInstalledIL" xml:space="preserve"><value>&lt;ILID&gt; &lt;ILvID&gt;</value></data>
+  <data name="L_ParamsForceTkaActivation" xml:space="preserve"><value>&lt;证书指纹&gt; [&lt;PIN&gt;]</value></data>
+  <data name="L_ParamsAONameOptional" xml:space="preserve"><value>[激活对象名称]</value></data>
+  <data name="L_ParamsAODistinguishedName" xml:space="preserve"><value>&lt;Activation Object DN | Activation Object RDN&gt;</value></data>
+
+  <!-- Miscellaneous messages -->
+  <data name="L_MsgHelp_1" xml:space="preserve"><value>Windows 软件授权管理工具</value></data>
+  <data name="L_MsgHelp_2" xml:space="preserve"><value>用法: slmgr.vbs [MachineName [User Password]] [&lt;Option&gt;]</value></data>
+  <data name="L_MsgHelp_3" xml:space="preserve"><value>MachineName: 远程计算机的名称(默认为本地计算机)</value></data>
+  <data name="L_MsgHelp_4" xml:space="preserve"><value>User: 远程计算机上具有所需特权的账户</value></data>
+  <data name="L_MsgHelp_5" xml:space="preserve"><value>Password: 前面帐号的密码</value></data>
+  <data name="L_MsgGlobalOptions" xml:space="preserve"><value>全局选项:</value></data>
+  <data name="L_MsgAdvancedOptions" xml:space="preserve"><value>高级选项:</value></data>
+  <data name="L_MsgKmsClientOptions" xml:space="preserve"><value>批量许可: 密钥管理服务(KMS)客户端选项:</value></data>
+  <data name="L_MsgKmsOptions" xml:space="preserve"><value>批量许可: 密钥管理服务(KMS)选项:</value></data>
+  <data name="L_MsgADOptions" xml:space="preserve"><value>批量许可: Active Directory (AD)激活选项:</value></data>
+  <data name="L_MsgTkaClientOptions" xml:space="preserve"><value>批量许可: 基于令牌的激活选项:</value></data>
+  <data name="L_MsgInvalidOptions" xml:space="preserve"><value>命令参数的组合无效。</value></data>
+  <data name="L_MsgUnrecognizedOption" xml:space="preserve"><value>无法识别的选项: </value></data>
+  <data name="L_MsgErrorProductNotFound" xml:space="preserve"><value>错误: 找不到产品。</value></data>
+  <data name="L_MsgClearedPKey" xml:space="preserve"><value>来自注册表的产品密钥成功地清除。</value></data>
+  <data name="L_MsgInstalledPKey" xml:space="preserve"><value>成功地安装了产品密钥 %PKEY%。</value></data>
+  <data name="L_MsgUninstalledPKey" xml:space="preserve"><value>成功地卸载了产品密钥。</value></data>
+  <data name="L_MsgErrorPKey" xml:space="preserve"><value>错误: 找不到产品密钥。</value></data>
+  <data name="L_MsgInstallationID" xml:space="preserve"><value>安装 ID: </value></data>
+  <data name="L_MsgPhoneNumbers" xml:space="preserve"><value>通过在 phone.inf 文件中搜索你所在位置/国家(地区)的相应电话号码，可以获取产品激活电话号码。你可以在“命令提示符”中或「开始」菜单处，通过运行 notepad %systemroot%\system32\sppui\phone.inf 打开 phone.inf 文件</value></data>
+  <data name="L_MsgActivating" xml:space="preserve"><value>正在激活 %PRODUCTNAME% (%PRODUCTID%) ...</value></data>
+  <data name="L_MsgActivated" xml:space="preserve"><value>成功地激活了产品。</value></data>
+  <data name="L_MsgActivated_Failed" xml:space="preserve"><value>错误: 产品激活失败。</value></data>
+  <data name="L_MsgConfID" xml:space="preserve"><value>产品 %ACTID% 的确认 ID 成功地存储。</value></data>
+  <data name="L_MsgErrorLocalWMI" xml:space="preserve"><value>在连接到本地 WMI 提供程序时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorLocalRegistry" xml:space="preserve"><value>在连接到本地注册表时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorConnection" xml:space="preserve"><value>连接服务器 %COMPUTERNAME% 时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgInfoRemoteConnection" xml:space="preserve"><value>已连接到服务器 %COMPUTERNAME%。</value></data>
+  <data name="L_MsgErrorConnectionRegistry" xml:space="preserve"><value>连接服务器 %COMPUTERNAME% 上的注册表时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorImpersonation" xml:space="preserve"><value>设置模拟级别时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorAuthenticationLevel" xml:space="preserve"><value>设置身份验证级别时发生了错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorWMI" xml:space="preserve"><value>创建定位器对象时出现错误 0x%ERRCODE%。</value></data>
+  <data name="L_MsgErrorText_6" xml:space="preserve"><value>在运行 Microsoft Windows 非核心版本的计算机上，运行“slui.exe 0x2a 0x%ERRCODE%”以显示错误文本。</value></data>
+  <data name="L_MsgErrorText_8" xml:space="preserve"><value>错误: </value></data>
+  <data name="L_MsgErrorText_9" xml:space="preserve"><value>错误: 选项 %OPTION% 需要 %PARAM%</value></data>
+  <data name="L_MsgErrorText_11" xml:space="preserve"><value>计算机正在非正版宽限期内运行。请运行“slui.exe”联机并验证计算机正版。</value></data>
+  <data name="L_MsgErrorText_12" xml:space="preserve"><value>Windows 正运行于非正版通知期内。请运行 'slui.exe' 联机验证 Windows。</value></data>
+  <data name="L_MsgLicenseFile" xml:space="preserve"><value>成功地安装了许可证文件 %LICENSEFILE%。</value></data>
+  <data name="L_MsgKmsPriSetToLow" xml:space="preserve"><value>KMS 优先级已设置为低</value></data>
+  <data name="L_MsgKmsPriSetToNormal" xml:space="preserve"><value>KMS 优先级已设置为普通</value></data>
+  <data name="L_MsgWarningKmsPri" xml:space="preserve"><value>警告: 优先级只能在已激活的 KMS 计算机上设置。</value></data>
+  <data name="L_MsgKmsDnsPublishingDisabled" xml:space="preserve"><value>已禁用 DNS 发布</value></data>
+  <data name="L_MsgKmsDnsPublishingEnabled" xml:space="preserve"><value>已启用 DNS 发布</value></data>
+  <data name="L_MsgKmsDnsPublishingWarning" xml:space="preserve"><value>警告: DNS 发布只能在已激活的 KMS 计算机上设置。</value></data>
+  <data name="L_MsgKmsPortSet" xml:space="preserve"><value>KMS 端口成功地设置为 %PORT%。</value></data>
+  <data name="L_MsgWarningKmsReboot" xml:space="preserve"><value>警告: 要使该设置生效，需要 KMS 重新启动。</value></data>
+  <data name="L_MsgWarningKmsPort" xml:space="preserve"><value>警告: KMS 端口只能在已激活的 KMS 计算机上设置。</value></data>
+  <data name="L_MsgRenewalSet" xml:space="preserve"><value>批量续订时间间隔成功地设置为 %RENEWAL% 分钟。</value></data>
+  <data name="L_MsgWarningRenewal" xml:space="preserve"><value>警告: 批量续订时间间隔只能在已激活的 KMS 计算机上设置。</value></data>
+  <data name="L_MsgActivationSet" xml:space="preserve"><value>批量激活时间间隔成功地设置为 %ACTIVATION% 分钟。</value></data>
+  <data name="L_MsgWarningActivation" xml:space="preserve"><value>警告: 批量激活时间间隔只能在已激活的 KMS 计算机上设置。</value></data>
+  <data name="L_MsgKmsNameSet" xml:space="preserve"><value>密钥管理服务计算机名称成功地设置为 %KMS%。</value></data>
+  <data name="L_MsgKmsNameCleared" xml:space="preserve"><value>密钥管理服务计算机名称成功地清除。</value></data>
+  <data name="L_MsgKmsLookupDomainSet" xml:space="preserve"><value>已将密钥管理服务查找域成功设置为 %FQDN%。</value></data>
+  <data name="L_MsgKmsLookupDomainCleared" xml:space="preserve"><value>已成功清除密钥管理服务查找域。</value></data>
+  <data name="L_MsgKmsUseMachineNameOverrides" xml:space="preserve"><value>警告: /skms 设置覆盖了 /skms-domain 设置。%KMS% 将被用于激活。</value></data>
+  <data name="L_MsgKmsUseMachineName" xml:space="preserve"><value>警告: /skms 设置生效。%KMS% 将被用于激活。</value></data>
+  <data name="L_MsgKmsUseLookupDomain" xml:space="preserve"><value>警告: /skms-domain 设置生效。%FQDN% 将被用于 DNS SRV 记录查找。</value></data>
+  <data name="L_MsgKmsHostCachingDisabled" xml:space="preserve"><value>已禁用 KMS 主机缓存</value></data>
+  <data name="L_MsgKmsHostCachingEnabled" xml:space="preserve"><value>已启用 KMS 主机缓存</value></data>
+  <data name="L_MsgErrorActivationID" xml:space="preserve"><value>错误: 找不到激活 ID (%ActID%)。</value></data>
+  <data name="L_MsgVLActivationTypeSet" xml:space="preserve"><value>已成功设置批量激活类型。</value></data>
+  <data name="L_MsgRearm_1" xml:space="preserve"><value>命令成功地完成。</value></data>
+  <data name="L_MsgRearm_2" xml:space="preserve"><value>要使更改生效，请重新启动系统。</value></data>
+  <data name="L_MsgRemainingWindowsRearmCount" xml:space="preserve"><value>剩余 Windows 重置计数: %COUNT%</value></data>
+  <data name="L_MsgRemainingSkuRearmCount" xml:space="preserve"><value>剩余 SKU 重置计数: %COUNT%</value></data>
+  <data name="L_MsgRemainingAppRearmCount" xml:space="preserve"><value>剩余应用重置计数: %COUNT%</value></data>
+
+  <data name="L_MsgLicenseStatusUnlicensed" xml:space="preserve"><value>未经授权</value></data>
+  <data name="L_MsgLicenseStatusVL" xml:space="preserve"><value>批量激活将于 %ENDDATE% 过期</value></data>
+  <data name="L_MsgLicenseStatusTBL" xml:space="preserve"><value>基于时间的激活将过期 %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusAVMA" xml:space="preserve"><value>虚拟机自动激活将在 %ENDDATE% 过期</value></data>
+  <data name="L_MsgLicenseStatusLicensed" xml:space="preserve"><value>计算机已永久激活。</value></data>
+  <data name="L_MsgLicenseStatusInitialGrace" xml:space="preserve"><value>初始宽限期于 %ENDDATE% 过期</value></data>
+  <data name="L_MsgLicenseStatusAdditionalGrace" xml:space="preserve"><value>初始宽限期于 %ENDDATE% 过期</value></data>
+  <data name="L_MsgLicenseStatusNonGenuineGrace" xml:space="preserve"><value>非正版宽限期于 %ENDDATE% 过期</value></data>
+  <data name="L_MsgLicenseStatusNotification" xml:space="preserve"><value>Windows 处于通知模式</value></data>
+  <data name="L_MsgLicenseStatusExtendedGrace" xml:space="preserve"><value>延长的宽限期结束 %ENDDATE%</value></data>
+  <data name="L_MsgLicenseStatusUnlicensed_1" xml:space="preserve"><value>许可证状态: 未经授权</value></data>
+  <data name="L_MsgLicenseStatusLicensed_1" xml:space="preserve"><value>许可证状态: 已授权</value></data>
+  <data name="L_MsgLicenseStatusVL_1" xml:space="preserve"><value>批量激活过期: %MINUTE% 分钟(%DAY% 天)</value></data>
+  <data name="L_MsgLicenseStatusTBL_1" xml:space="preserve"><value>基于时间的激活过期: %MINUTE% 分钟(%DAY% 天)</value></data>
+  <data name="L_MsgLicenseStatusAVMA_1" xml:space="preserve"><value>虚拟机自动激活过期时间: %MINUTE% 分钟(%DAY% 天)</value></data>
+  <data name="L_MsgLicenseStatusInitialGrace_1" xml:space="preserve"><value>许可证状态: 初始宽限期</value></data>
+  <data name="L_MsgLicenseStatusAdditionalGrace_1" xml:space="preserve"><value>许可证状态: 附加宽限期(KMS 许可证过期或硬件超出允许期限)</value></data>
+  <data name="L_MsgLicenseStatusNonGenuineGrace_1" xml:space="preserve"><value>许可证状态: 非正版宽限期。</value></data>
+  <data name="L_MsgLicenseStatusNotification_1" xml:space="preserve"><value>许可证状态: 通知</value></data>
+  <data name="L_MsgLicenseStatusExtendedGrace_1" xml:space="preserve"><value>许可证状态: 延长的宽限期</value></data>
+  <data name="L_MsgNotificationErrorReasonNonGenuine" xml:space="preserve"><value>通知原因: 0x%ERRCODE% (非正版)。</value></data>
+  <data name="L_MsgNotificationErrorReasonExpiration" xml:space="preserve"><value>通知原因: 0x%ERRCODE% (宽限期过期)。</value></data>
+  <data name="L_MsgNotificationErrorReasonOther" xml:space="preserve"><value>通知原因: 0x%ERRCODE%。</value></data>
+  <data name="L_MsgLicenseStatusTimeRemaining" xml:space="preserve"><value>剩余时间: %MINUTE% 分钟(%DAY% 天)</value></data>
+  <data name="L_MsgLicenseStatusUnknown" xml:space="preserve"><value>许可证状态: 未知</value></data>
+  <data name="L_MsgLicenseStatusEvalEndData" xml:space="preserve"><value>评估结束日期: </value></data>
+  <data name="L_MsgReinstallingLicenses" xml:space="preserve"><value>正在重新安装许可证文件...</value></data>
+  <data name="L_MsgLicensesReinstalled" xml:space="preserve"><value>成功地重新安装了许可证文件。</value></data>
+  <data name="L_MsgServiceVersion" xml:space="preserve"><value>软件授权服务版本: </value></data>
+  <data name="L_MsgProductName" xml:space="preserve"><value>名称: </value></data>
+  <data name="L_MsgProductDesc" xml:space="preserve"><value>描述: </value></data>
+  <data name="L_MsgActID" xml:space="preserve"><value>激活 ID: </value></data>
+  <data name="L_MsgAppID" xml:space="preserve"><value>应用程序 ID: </value></data>
+  <data name="L_MsgPID4" xml:space="preserve"><value>扩展 PID: </value></data>
+  <data name="L_MsgChannel" xml:space="preserve"><value>产品密钥通道: </value></data>
+  <data name="L_MsgProcessorCertUrl" xml:space="preserve"><value>处理器证书 URL: </value></data>
+  <data name="L_MsgMachineCertUrl" xml:space="preserve"><value>计算机证书 URL: </value></data>
+  <data name="L_MsgUseLicenseCertUrl" xml:space="preserve"><value>使用证书 URL: </value></data>
+  <data name="L_MsgPKeyCertUrl" xml:space="preserve"><value>产品密钥证书 URL:</value></data>
+  <data name="L_MsgValidationUrl" xml:space="preserve"><value>验证 URL: </value></data>
+  <data name="L_MsgPartialPKey" xml:space="preserve"><value>部分产品密钥: </value></data>
+  <data name="L_MsgErrorLicenseNotInUse" xml:space="preserve"><value>此许可证未在使用中。</value></data>
+  <data name="L_MsgKmsInfo" xml:space="preserve"><value>密钥管理服务客户端信息</value></data>
+  <data name="L_MsgCmid" xml:space="preserve"><value>客户端计算机 ID (CMID):</value></data>
+  <data name="L_MsgRegisteredKmsName" xml:space="preserve"><value>已注册的 KMS 计算机名称: </value></data>
+  <data name="L_MsgKmsLookupDomain" xml:space="preserve"><value>已注册的 KMS SRV 记录查找域: </value></data>
+  <data name="L_MsgKmsFromDnsUnavailable" xml:space="preserve"><value>DNS 自动发现: KMS 名称不可用</value></data>
+  <data name="L_MsgKmsFromDns" xml:space="preserve"><value>来自 DNS 的 KMS 计算机名称: </value></data>
+  <data name="L_MsgKmsIpAddress" xml:space="preserve"><value>KMS 计算机 IP 地址: </value></data>
+  <data name="L_MsgKmsIpAddressUnavailable" xml:space="preserve"><value>KMS 计算机 IP 地址: 不可用</value></data>
+  <data name="L_MsgKmsPID4" xml:space="preserve"><value>KMS 计算机扩展的 PID: </value></data>
+  <data name="L_MsgActivationInterval" xml:space="preserve"><value>激活时间间隔: %INTERVAL% 分钟</value></data>
+  <data name="L_MsgRenewalInterval" xml:space="preserve"><value>续订间隔: %INTERVAL% 分钟</value></data>
+  <data name="L_MsgKmsEnabled" xml:space="preserve"><value>密钥管理服务已经在此计算机上启用</value></data>
+  <data name="L_MsgKmsCurrentCount" xml:space="preserve"><value>当前计数: </value></data>
+  <data name="L_MsgKmsListeningOnPort" xml:space="preserve"><value>在下列端口上侦听: </value></data>
+  <data name="L_MsgKmsPriNormal" xml:space="preserve"><value>KMS 优先级: 普通</value></data>
+  <data name="L_MsgKmsPriLow" xml:space="preserve"><value>KMS 优先级: 低</value></data>
+  <data name="L_MsgVLActivationTypeAll" xml:space="preserve"><value>已配置的激活类型: 全部</value></data>
+  <data name="L_MsgVLActivationTypeAD" xml:space="preserve"><value>已配置的激活类型: AD</value></data>
+  <data name="L_MsgVLActivationTypeKMS" xml:space="preserve"><value>已配置的激活类型: KMS</value></data>
+  <data name="L_MsgVLActivationTypeToken" xml:space="preserve"><value>已配置的激活类型: Token</value></data>
+  <data name="L_MsgVLMostRecentActivationInfo" xml:space="preserve"><value>最新激活信息:</value></data>
+  <data name="L_MsgInvalidDataError" xml:space="preserve"><value>错误: 数据无效</value></data>
+  <data name="L_MsgUndeterminedPrimaryKey" xml:space="preserve"><value>警告: SLMGR 无法验证 Windows 的当前产品密钥。请升级到最新的 Service Pack。</value></data>
+  <data name="L_MsgUndeterminedPrimaryKeyOperation" xml:space="preserve"><value>警告: 此操作可能影响多个目标许可证。请验证结果。</value></data>
+  <data name="L_MsgUndeterminedOperationFormat" xml:space="preserve"><value>正在处理 %PRODUCTDESCRIPTION% (%PRODUCTID%)的许可证。</value></data>
+  <data name="L_MsgPleaseActivateRefreshKMSInfo" xml:space="preserve"><value>请使用 slmgr.vbs /ato 激活并更新 KMS 客户端信息以更新值。</value></data>
+  <data name="L_MsgTokenBasedActivationMustBeDone" xml:space="preserve"><value>此系统已配置为仅限基于令牌的激活。使用 slmgr.vbs /fta 启动基于令牌的激活，或使用 slmgr.vbs /act-type 更改激活类型设置。</value></data>
+  <data name="L_MsgSubscriptionEdition" xml:space="preserve"><value>订阅版本： </value></data>
+  <data name="L_MsgSubscriptionType" xml:space="preserve"><value>订阅类型：</value></data>
+  <data name="L_MsgSubscriptionTypeABS" xml:space="preserve"><value>基于 Azure 的订阅</value></data>
+  <data name="L_MsgSubscriptionTypeDBS" xml:space="preserve"><value>基于设备的订阅</value></data>
+  <data name="L_MsgSubscriptionTypeUBS" xml:space="preserve"><value>基于用户的订阅</value></data>
+  <data name="L_MsgSubscriptionTypeUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="L_MsgSubscriptionStatus" xml:space="preserve"><value>订阅状态： </value></data>
+  <data name="L_MsgSubscriptionStatusActive" xml:space="preserve"><value>订阅中</value></data>
+  <data name="L_MsgSubscriptionStatusNotActive" xml:space="preserve"><value>未激活</value></data>
+  <data name="L_MsgSubscriptionStatusDisabled" xml:space="preserve"><value>已禁用</value></data>
+  <data name="L_MsgSubscriptionExpiry" xml:space="preserve"><value>订阅到期时间：</value></data>
+  <data name="L_MsgSubscriptionStatusExpired" xml:space="preserve"><value>已过期</value></data>
+  <data name="L_MsgSubscriptionExpiryUnknown" xml:space="preserve"><value>未知</value></data>
+  <data name="L_MsgKmsCumulativeRequestsFromClients" xml:space="preserve"><value>从客户端接收的密钥管理服务累积请求</value></data>
+  <data name="L_MsgKmsTotalRequestsRecieved" xml:space="preserve"><value>接收到的总请求数: </value></data>
+  <data name="L_MsgKmsFailedRequestsReceived" xml:space="preserve"><value>接收到的失败请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusUnlicensed" xml:space="preserve"><value>许可证状态为未经授权的请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusLicensed" xml:space="preserve"><value>许可证状态为已经授权的请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusInitialGrace" xml:space="preserve"><value>许可证状态为初始宽限期的请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusLicenseExpiredOrHwidOot" xml:space="preserve"><value>许可证状态为许可证已过期或硬件超出容错的请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusNonGenuineGrace" xml:space="preserve"><value>许可证状态为非正版宽限期的请求数: </value></data>
+  <data name="L_MsgKmsRequestsWithStatusNotification" xml:space="preserve"><value>带许可证状态通知请求: </value></data>
+  <data name="L_MsgRemoteWmiVersionMismatch" xml:space="preserve"><value>远程计算机不支持此版本的 SLMgr.vbs</value></data>
+  <data name="L_MsgRemoteExecNotSupported" xml:space="preserve"><value>此 SLMgr.vbs 命令不支持远程执行。</value></data>
+  <data name="L_MsgTkaLicenses" xml:space="preserve"><value>基于令牌的激活颁发许可证:</value></data>
+  <data name="L_MsgTkaLicenseHeader" xml:space="preserve"><value>%ILID%    %ILVID%</value></data>
+  <data name="L_MsgTkaLicenseILID" xml:space="preserve"><value>许可证 ID (ILID): %ILID%</value></data>
+  <data name="L_MsgTkaLicenseILVID" xml:space="preserve"><value>版本 ID (ILvID): %ILVID%</value></data>
+  <data name="L_MsgTkaLicenseExpiration" xml:space="preserve"><value>有效终止日期: %TODATE%</value></data>
+  <data name="L_MsgTkaLicenseAdditionalInfo" xml:space="preserve"><value>其他信息: %MOREINFO%</value></data>
+  <data name="L_MsgTkaLicenseAuthZStatus" xml:space="preserve"><value>错误: 0x%ERRCODE%</value></data>
+  <data name="L_MsgTkaLicenseDescr" xml:space="preserve"><value>描述: %DESC%</value></data>
+  <data name="L_MsgTkaLicenseNone" xml:space="preserve"><value>没有找到许可证。</value></data>
+  <data name="L_MsgTkaRemoving" xml:space="preserve"><value>正在删除基于令牌的激活许可证...</value></data>
+  <data name="L_MsgTkaRemovedItem" xml:space="preserve"><value>已删除 SLID=%SLID% 的许可证。</value></data>
+  <data name="L_MsgTkaRemovedNone" xml:space="preserve"><value>没有找到许可证。</value></data>
+  <data name="L_MsgTkaInfoAdditionalInfo" xml:space="preserve"><value>其他信息: %MOREINFO%</value></data>
+  <data name="L_MsgTkaInfo" xml:space="preserve"><value>基于令牌的激活信息</value></data>
+  <data name="L_MsgTkaInfoILID" xml:space="preserve"><value>许可证 ID (ILID): %ILID%</value></data>
+  <data name="L_MsgTkaInfoILVID" xml:space="preserve"><value>版本 ID (ILvID): %ILVID%</value></data>
+  <data name="L_MsgTkaInfoGrantNo" xml:space="preserve"><value>授权号: %GRANTNO%</value></data>
+  <data name="L_MsgTkaInfoThumbprint" xml:space="preserve"><value>证书指纹: %THUMBPRINT%</value></data>
+  <data name="L_MsgTkaCertThumbprint" xml:space="preserve"><value>指纹: %THUMBPRINT%</value></data>
+  <data name="L_MsgTkaCertSubject" xml:space="preserve"><value>使用者: %SUBJECT%</value></data>
+  <data name="L_MsgTkaCertIssuer" xml:space="preserve"><value>颁发者: %ISSUER%</value></data>
+  <data name="L_MsgTkaCertValidFrom" xml:space="preserve"><value>有效期起始于: %FROMDATE%</value></data>
+  <data name="L_MsgTkaCertValidTo" xml:space="preserve"><value>有效期截止于: %TODATE%</value></data>
+  <data name="L_MsgADInfo" xml:space="preserve"><value>AD 激活客户端信息</value></data>
+  <data name="L_MsgADInfoAOName" xml:space="preserve"><value>激活对象名称: </value></data>
+  <data name="L_MsgADInfoAODN" xml:space="preserve"><value>AO DN: </value></data>
+  <data name="L_MsgADInfoExtendedPid" xml:space="preserve"><value>AO 扩展 PID: </value></data>
+  <data name="L_MsgADInfoActID" xml:space="preserve"><value>AO 激活 ID: </value></data>
+  <data name="L_MsgActObjAvailable" xml:space="preserve"><value>激活对象</value></data>
+  <data name="L_MsgActObjNoneFound" xml:space="preserve"><value>未找到对象</value></data>
+  <data name="L_MsgSucess" xml:space="preserve"><value>已成功完成操作。</value></data>
+  <data name="L_MsgADSchemaNotSupported" xml:space="preserve"><value>当前 Active Directory 架构中不支持基于 Active Directory 的激活。</value></data>
+  <data name="L_MsgAVMAInfo" xml:space="preserve"><value>虚拟机自动激活客户端信息</value></data>
+  <data name="L_MsgAVMAID" xml:space="preserve"><value>来宾 IAID: </value></data>
+  <data name="L_MsgAVMAHostMachineName" xml:space="preserve"><value>主机名: </value></data>
+  <data name="L_MsgAVMALastActTime" xml:space="preserve"><value>激活时间: </value></data>
+  <data name="L_MsgAVMAHostPid2" xml:space="preserve"><value>主机数字 PID2: </value></data>
+  <data name="L_MsgNotAvailable" xml:space="preserve"><value>不可用</value></data>
+  <data name="L_MsgCurrentTrustedTime" xml:space="preserve"><value>信任时间: </value></data>
+
+  <data name="L_MsgError_C004C001" xml:space="preserve"><value>激活服务器确定指定的产品密钥无效</value></data>
+  <data name="L_MsgError_C004C003" xml:space="preserve"><value>激活服务器确定指定的产品密钥被阻止</value></data>
+  <data name="L_MsgError_C004C017" xml:space="preserve"><value>激活服务器确定此地理位置的指定产品密钥已被阻止。</value></data>
+  <data name="L_MsgError_C004B100" xml:space="preserve"><value>激活服务器确定无法激活计算机</value></data>
+  <data name="L_MsgError_C004C008" xml:space="preserve"><value>激活服务器确定无法使用指定的产品密钥</value></data>
+  <data name="L_MsgError_C004C020" xml:space="preserve"><value>激活服务器报告多次激活密钥已超过其限制</value></data>
+  <data name="L_MsgError_C004C021" xml:space="preserve"><value>激活服务器报告已超过多次激活密钥扩展限制</value></data>
+  <data name="L_MsgError_C004D307" xml:space="preserve"><value>已超过重新整理的最大允许数量。在尝试再次重新整理之前，必须重新安装 OS</value></data>
+  <data name="L_MsgError_C004F009" xml:space="preserve"><value>软件授权服务报告宽限期已过期</value></data>
+  <data name="L_MsgError_C004F00F" xml:space="preserve"><value>软件授权服务器报告硬件 ID 绑定不在容差级别之内</value></data>
+  <data name="L_MsgError_C004F014" xml:space="preserve"><value>软件授权服务报告产品密钥不可用</value></data>
+  <data name="L_MsgError_C004F025" xml:space="preserve"><value>拒绝访问: 所请求的操作需要提升特权</value></data>
+  <data name="L_MsgError_C004F02C" xml:space="preserve"><value>软件授权服务报告脱机激活数据的格式不正确</value></data>
+  <data name="L_MsgError_C004F035" xml:space="preserve"><value>软件许可服务报告无法使用批量许可证产品密钥激活该计算机。批量许可系统要求从具有资格的操作系统进行升级。请联系你的系统管理员，或者使用其他类型的密钥</value></data>
+  <data name="L_MsgError_C004F038" xml:space="preserve"><value>软件授权服务报告无法激活该计算机。你的密钥管理服务(KMS)报告的计数不足。请联系你的系统管理员</value></data>
+  <data name="L_MsgError_C004F039" xml:space="preserve"><value>软件授权服务报告无法激活该计算机。未启用密钥管理服务(KMS)</value></data>
+  <data name="L_MsgError_C004F041" xml:space="preserve"><value>软件授权服务确定未激活密钥管理服务器(KMS)。需要激活 KMS</value></data>
+  <data name="L_MsgError_C004F042" xml:space="preserve"><value>软件授权服务确定无法使用指定的密钥管理服务(KMS)</value></data>
+  <data name="L_MsgError_C004F050" xml:space="preserve"><value>软件授权服务报告产品密钥无效</value></data>
+  <data name="L_MsgError_C004F051" xml:space="preserve"><value>软件授权服务报告产品密钥被阻止</value></data>
+  <data name="L_MsgError_C004F064" xml:space="preserve"><value>软件授权服务报告非正版宽限期已过期</value></data>
+  <data name="L_MsgError_C004F065" xml:space="preserve"><value>软件授权服务报告该应用程序正在有效的非正版期间内运行</value></data>
+  <data name="L_MsgError_C004F066" xml:space="preserve"><value>软件授权服务报告未找到产品 SKU</value></data>
+  <data name="L_MsgError_C004F06B" xml:space="preserve"><value>软件授权服务确定它正在虚拟机上运行。在此模式下不支持密钥管理服务(KMS)</value></data>
+  <data name="L_MsgError_C004F074" xml:space="preserve"><value>软件授权服务报告无法激活计算机。无法联系任何密钥管理服务(KMS)。有关其他信息，请参阅应用程序事件日志。</value></data>
+  <data name="L_MsgError_C004F075" xml:space="preserve"><value>软件授权服务报告无法完成该操作，因为该服务正在停止</value></data>
+  <data name="L_MsgError_C004F304" xml:space="preserve"><value>软件授权服务报告找不到所需的许可证。</value></data>
+  <data name="L_MsgError_C004F305" xml:space="preserve"><value>软件授权服务报告没有在系统中找到可以激活此产品的证书。</value></data>
+  <data name="L_MsgError_C004F30A" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。证书与许可证中的条件不匹配。</value></data>
+  <data name="L_MsgError_C004F30D" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。指纹无效。</value></data>
+  <data name="L_MsgError_C004F30E" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。找不到此指纹的证书。</value></data>
+  <data name="L_MsgError_C004F30F" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。证书与颁发许可证中指定的条件不匹配。</value></data>
+  <data name="L_MsgError_C004F310" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。证书与颁发许可证中指定的信任点标识符(TPID)不匹配。</value></data>
+  <data name="L_MsgError_C004F311" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。无法使用软令牌进行激活。</value></data>
+  <data name="L_MsgError_C004F312" xml:space="preserve"><value>软件授权服务报告无法激活此计算机。无法使用证书，因为其私钥是可以导出的。</value></data>
+  <data name="L_MsgError_5" xml:space="preserve"><value>拒绝访问: 所请求的操作需要提升特权</value></data>
+  <data name="L_MsgError_80070005" xml:space="preserve"><value>拒绝访问: 所请求的操作需要提升特权</value></data>
+  <data name="L_MsgError_80070057" xml:space="preserve"><value>参数不正确</value></data>
+  <data name="L_MsgError_8007232A" xml:space="preserve"><value>DNS 服务器失败</value></data>
+  <data name="L_MsgError_8007232B" xml:space="preserve"><value>DNS 名不存在</value></data>
+  <data name="L_MsgError_800706BA" xml:space="preserve"><value>RPC 服务器不可用</value></data>
+  <data name="L_MsgError_8007251D" xml:space="preserve"><value>找不到 DNS 查询的记录</value></data>
+</root>
