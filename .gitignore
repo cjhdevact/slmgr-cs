@@ -1,7 +1,11 @@
-/.vs/
+/Src/.vs/
 
-/*.suo
+/Src/*.suo
 
-/slmgr/bin/
+/Src/slmgr/bin/
 
-/slmgr/obj/
+/Src/slmgr/obj/
+
+/Tools/NugetPublish.bat
+
+/Tools/NugetGithubPublish.bat

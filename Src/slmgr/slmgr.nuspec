@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>slmgr-cs</id>
+    <version>1.0.1.26102</version>
+    <title>Slmgr CSharp Library</title>
+    <authors>CJH</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>ReadMe.md</readme>
+    <projectUrl>https://github.com/cjhdevact/slmgr-cs</projectUrl>
+    <description>A C# port of the Windows Software Licensing Management Tool (slmgr.vbs). Provides a programmatic API for installing product keys, activating Windows, configuring KMS, and inspecting license state. For more information, please visit https://github.com/cjhdevact/slmgr-cs.</description>
+    <copyright>Copyright © 2026 CJH. All Rights Reserved.</copyright>
+    <tags>slmgr licensing windows kms activation product-key registry</tags>
+    <repository type="git" url="https://github.com/cjhdevact/slmgr-cs" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Management" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.DirectoryServices" targetFramework=".NETFramework4.5.2" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.5.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!-- Main assembly. Path is relative to this nuspec (Src\slmgr\). -->
+    <file src="bin\Release\slmgrlib.dll" target="lib\net452" />
+    <file src="bin\Release\slmgrlib.pdb" target="lib\net452" />
+
+    <!-- Satellite assemblies for localization -->
+    <file src="bin\Release\en-US\slmgrlib.resources.dll" target="lib\net452\en-US" />
+    <file src="bin\Release\zh-CN\slmgrlib.resources.dll" target="lib\net452\zh-CN" />
+    <file src="bin\Release\zh-TW\slmgrlib.resources.dll" target="lib\net452\zh-TW" />
+
+    <!-- Package-level documents. src is relative to this nuspec, so go up two levels. -->
+    <file src="..\..\ReadMe.md" target="ReadMe.md" />
+    <file src="..\..\License"   target="License" />
+  </files>
+</package>
