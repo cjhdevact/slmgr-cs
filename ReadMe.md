@@ -119,6 +119,22 @@ slmgrc.exe \\remote-pc admin password /dlv
 
 ## Library Usage
 
+### Installation
+
+```bat
+dotnet add package slmgr-cs
+```
+
+Or in Visual Studio Package Manager Console:
+
+```powershell
+Install-Package slmgr-cs
+```
+
+You can download from release page too.
+
+### Getting Started
+
 Reference `slmgrlib.dll` from your project and call `slmgr.Slmgr.Run(...)`:
 
 ```csharp
@@ -128,7 +144,7 @@ SlmgrResult r = Slmgr.Run("/dlv");
 Console.WriteLine("ExitCode: " + r.ExitCode);
 Console.WriteLine(r.Output);
 
-SlmgrResult r2 = Slmgr.Run("/ipk W269N-WFGWX-YVC9B-4J6C9-T83GX");
+SlmgrResult r2 = Slmgr.Run("/ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX");
 if (!r2.Success)
 {
     Console.WriteLine("Failed: " + r2.Output);
