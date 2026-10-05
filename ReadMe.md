@@ -48,10 +48,7 @@ slmgr/
 ├── SlmgrResult.cs             Return type for the API
 ├── ExitSignalException.cs     Internal control-flow exception
 ├── WindowsAppId.cs            Shared constants
-├── Resources/
-│   ├── Strings.en-US.resx     English resources
-│   ├── Strings.resx           Neutral (English) resources
-│   └── Strings.zh-CN.resx     Simplified Chinese resources
+├── Resources/                 Language resources
 └── Properties/
     ├── AssemblyInfo.cs
     ├── Resources.resx
@@ -82,13 +79,7 @@ bin\Release\
 ├── slmgrc.exe
 ├── slmgrlib.dll
 ├── en-US\
-│   ├── slmgr.resources.dll
-│   ├── slmgrc.resources.dll
-│   └── slmgrlib.resources.dll
-└── zh-CN\
-    ├── slmgr.resources.dll
-    ├── slmgrc.resources.dll
-    └── slmgrlib.resources.dll
+...
 ```
 
 Each artifact carries its own satellite assemblies (the .NET resource system keys satellites by assembly name). The satellite contents are identical; the duplication is a consequence of the single-project multi-configuration approach. To share a single satellite across all three artifacts, extract the resources into a separate class library project and reference it from all three.

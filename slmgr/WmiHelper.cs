@@ -115,7 +115,18 @@ namespace slmgr
             string s = v.ToString();
             if (string.IsNullOrEmpty(s)) return null;
 
-            try { return ManagementDateTimeConverter.ToDateTime(s); }
+            try
+            {
+                DateTime dt = ManagementDateTimeConverter.ToDateTime(s);
+
+                // WMI returns FILETIME 0 (1601-01-01 UTC) for "unset" date
+                // properties. The converter turns that into a real DateTime,
+                // so filter it here. This matches the original slmgr.vbs check
+                // `displayDate.GetFileTime(false) <> 0`.
+                if (dt.Year <= 1601) return null;
+
+                return dt;
+            }
             catch { return null; }
         }
 
